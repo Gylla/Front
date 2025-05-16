@@ -1,0 +1,76 @@
+.cabecera{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 100;
+    /*background-color: rgb(9, 9, 20);*/
+    background-color: #00000000;
+    
+}
+
+.logo{
+    height: 30px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    filter: drop-shadow( 0 0 10px rgb(255, 255, 255));
+}
+
+.logo:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 7px #fff) 
+          drop-shadow(0 0 10px #fff) 
+          drop-shadow(0 0 21px #0fa) 
+          drop-shadow(0 0 42px #0fa) 
+          drop-shadow(0 0 82px #0fa);
+          
+}
+
+.menu{
+    width: 40%;
+    padding: 0 20px 5px 0;
+    
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;   
+    box-sizing: content-box;
+    height: 100%;
+}
+
+.item{
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: content-box;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    
+    color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 42px #0fa;
+
+}
+
+.item:hover {
+    background-color: rgba(140, 140, 156, 0.5);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+
